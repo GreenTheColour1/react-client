@@ -3,6 +3,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../components/Layout";
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
+import Image from 'next/image';
 
 
 const Produts = (props) => {
@@ -13,10 +14,7 @@ const Produts = (props) => {
             {props.data.map((elem) => {
               return (
                 <Card className='mx-4 my-3' style={{ width: "18rem" }}>
-                  <Card.Img
-                    variant="top"
-                    src="https://www.bowerswilkins.com/sites/default/files/2019-09/Low--PX7%20Front%20-%20Space%20Grey.jpg"
-                  />
+                  <Image src={'/img/' + elem.GraphicName} alt='Picture of headphone' width={500} height={500}></Image>
                   <Card.Body>
                     <Card.Title>{elem.ProductName}</Card.Title>
                     <Card.Text>{elem.Description}</Card.Text>
