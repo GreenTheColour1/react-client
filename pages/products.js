@@ -2,7 +2,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../components/Layout";
-import { Card, Button, Container, Row, Col } from 'react-bootstrap';
+import { Card, Button, Container, Row } from 'react-bootstrap';
 import Image from 'next/image';
 
 
