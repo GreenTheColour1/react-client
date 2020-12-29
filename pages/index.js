@@ -1,7 +1,6 @@
 // pages/index.js
 
 import Layout from "../components/Layout";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'

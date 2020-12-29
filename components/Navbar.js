@@ -13,14 +13,7 @@ const NavBar = () => {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
         <Link href='/'><Nav.Link as='a'>Home</Nav.Link></Link>
-        <Link href='/products'><Nav.Link as='a'>Products</Nav.Link></Link>
-        {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        </NavDropdown> */}
+        <Link href='/brands'><Nav.Link as='a'>Brands</Nav.Link></Link>
       </Nav>
       <Form inline>
         <FormControl type="text" placeholder="Search" className="mr-sm-2" />

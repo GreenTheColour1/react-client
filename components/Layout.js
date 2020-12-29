@@ -3,6 +3,7 @@
 import Header from "./Header";
 import NavBar from "./NavBar";
 import Head from 'next/head';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const layoutStyle = {
   display: "flex",
