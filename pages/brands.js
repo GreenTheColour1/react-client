@@ -17,7 +17,7 @@ const Brands = (props) => {
                     information.
                   </p>
                   <p>
-                    <Link href='/products'><Button variant="primary">Learn more</Button></Link>
+                    <Link href={'/brands/' + elem.Id}><Button variant="primary">Learn more</Button></Link>
                   </p>
                 </Jumbotron>
               );
